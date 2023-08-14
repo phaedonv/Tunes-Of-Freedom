@@ -36,7 +36,7 @@ gem 'ffi', '~> 1.14', '>= 1.14.2'
 
 # For the Modal..
 
-gem 'bootstrap'
+gem 'bootstrap', '>= 5.3.0'
 gem 'popper_js'
 
 # Upload photos
