@@ -22,9 +22,9 @@ gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 #forms
-gem 'simple_form'
+gem 'simple_form', '>= 5.3.0'
 # Authentication
-gem 'devise'
+gem 'devise', '>= 4.9.3'
 
 gem 'pundit'
 
