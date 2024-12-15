@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -12,7 +12,7 @@ gem 'puma', '~> 4.3', '>= 4.3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6.0.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 4.2', '>= 4.2.2'
+gem 'webpacker', '~> 5.0', '>= 5.0.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -48,7 +48,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 # trying to find a randomizer 4 the quotes..
 gem 'lodash-rails', '>= 4.17.21'
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.6.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
